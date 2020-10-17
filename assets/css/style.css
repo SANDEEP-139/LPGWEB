@@ -1,0 +1,369 @@
+body, html {overflow-x: hidden}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, command, datalist, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, source, span, strike, strong, table, tbody, tdvideo, tfoot, th, thead, tr, tt, u, ul, var {
+	background: 0 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;text-decoration:none;}
+.whitebg, body {background-color: #FFF}
+ol, ul {list-style: none}
+blockquote, q {quotes: none}
+table, table td {padding: 0;border: none;border-collapse: collapse}
+img {max-width: 100%}
+@font-face {
+	font-family: roboto-bold;
+	src: url(../fonts/Roboto-Bold.eot);
+	src: url(../fonts/Roboto-Bold.eot) format('embedded-opentype'), url(../fonts/Roboto-Bold.woff) format('woff'), url(../fonts/Roboto-Bold.ttf) format('truetype'), url(../fonts/Roboto-Bold.svg) format('svg');
+	font-weight: 400;
+	font-style: normal}
+@font-face {
+	font-family: roboto-regular;
+	src: url(../fonts/Roboto-Regular.eot);
+	src: url(../fonts/Roboto-Regular.eot) format('embedded-opentype'), url(../fonts/Roboto-Regular.woff) format('woff'), url(../fonts/Roboto-Regular.ttf) format('truetype'), url(../fonts/Roboto-Regular.svg) format('svg')}
+
+
+
+a label {
+	cursor: pointer}
+body {margin: 0;padding: 0;font-family: roboto-regular;color: #333;font-size: 15px}
+a, a img {outline: 0;border: none}
+img{max-width:100%;}
+.clear {clear: both;}
+.height40 { height:40px;}
+.height20 { height:20px;}
+.fl { float:left;}
+.fr { float:right;}
+.tc { text-align:center;}
+.header-top{box-shadow:0px 0px 7px 0px #333;position:relative; padding:10px 0; background:#FFF;}
+.logo{padding:7px 0 0 0px; font-size:35px; color:#14469e; font-variant:normal;  }
+.logo span { font-family: roboto-bold; color:#ff7200; letter-spacing:-1px;}
+.header-right { text-align:right;}
+.header-right ul{margin:13px 0px;padding:0px;float:right;width:auto;}
+.header-right ul li{float:left;list-style:none;color:#222;padding:0px 13px; border-right:1px solid #ccc;}
+.btnlogout { background:#ff7200; padding:7px 17px; border-radius:3px; color:#FFF; font-family: roboto-regular; font-size:14px; color:#FFF;} 
+.btnlogout:hover { color:#FFF; background:#14469e; text-decoration:none;}
+.adminusername { font-size:13px; color:#bfbfbf; font-family: roboto-regular;}
+.adminusername span { color:#14469e; font-family: roboto-regular; font-size:15px;}
+
+
+
+/*---------------------------------------------LOGIN PAGE START HERE-----------------------------------*/
+.logincontainer { width:100%; display:block; min-height:510px;}
+.loginheader { padding:20px 0;}
+.loginheader h1 { text-align:center; color:#FFF; font-family: roboto-bold; color:#0048c6; font-size:45px; padding:0px 0 0 0; letter-spacing:-1px;}
+.loginheader h1 span { color:#ff8605;}
+.logincontainer .headerformtitle { top:0px; margin:0px; width:100%; text-align:center;}
+.logincontainer .headerformtitle h1 { float:none; text-align:center; color:#FFF; font-family: roboto-bold; font-weight:normal;  font-size:30px; padding:0px 0 0 0; letter-spacing:-1px;}
+
+.loginform { background:#f0f0f0; width:420px; margin:0 auto; padding:40px 30px;  }
+.loginheading  h1{ font-weight:normal; font-family: roboto-regular;text-align:center; color:#FFF; font-size:33px; line-height:35px; padding:0px; margin:0px;}
+.loginheading  h1 span { font-size:16px; font-family: roboto-regular;color:#daedff; letter-spacing:0px;}
+.loginform  h1{ font-weight:normal; font-family: roboto-regular;text-align:center; color:#000; font-size:28px; letter-spacing:-1px; line-height:35px; padding:0px 0 20px 0; margin:0px;}
+.loginform  h1 span { font-size:16px; font-family: roboto-regular;color:#333; line-height:20px; letter-spacing:0px;}
+.loginform .col-md-12 { padding-left:0px; padding-right:0px;}
+.loginpanel label { font-size:16px; color:#000; font-family: roboto-regular; font-weight:normal;}
+.loginpanel .inputbox:hover { border:1px solid #0048c6;}
+.loginpanel .inputbox { border:1px solid #CCC; background:#FFF; font-size:15px; width:100%; padding:8px 10px;  margin:0 0 25px 0; height:42px;}
+.loginpanel .inputbox .iconmail { width:28px; height:34px; background:url(../images/iconemail.jpg) no-repeat; float:left;}
+.loginpanel .inputbox .iconpass { width:28px; height:34px; background:url(../images/icon-pass.jpg) no-repeat; float:left;}
+.loginpanel .inputbox i { font-size:17px; color:#b3b3b3; margin:0 5px 0 0;}
+.loginpanel .inputbox input { border:none; margin:0px 0px 0 10px; padding:0px; font-family: roboto-bold; font-weight:normal; font-size:14px; color:#000; width:300px;}
+.loginformtext a:hover { color:#14469e;}
+.loginformtext a { font-size:14px; color:#000; text-decoration:none; }
+.btnlogin { background:#ff7200; width:100%; text-align:center; text-transform:uppercase; font-size:16px; border:none; font-family: roboto-bold; color:#FFF; padding:10px 0; display:inline-block; margin:20px auto 0px auto; }
+.btnlogin:hover { background:#ff8605;}
+.loginbotxt{ font-size:15px; font-family: roboto-regular;text-align:center;}
+.loginbotxt a { font-size:14px; color:#000; text-decoration:none;}
+
+.borderline { width:100%; display:block; height:12px; background:url(../images/bg-pat-trans.png) repeat-x; margin:0 0 10px 0;}
+/*---------------------------------------------LOGIN PAGE END HERE-----------------------------------*/
+
+.headertitle, .loginheader, .blueheader{background:#14469e;color:#fff;float:left;width:100%;}
+.blueheader { height:150px;}
+.headerformtitle { top:-90px; margin-left:-30px; position:absolute;}
+.headertitle h1, .headerformtitle h1{float:left;margin:30px 0px 80px;padding:0px;font-size:23px; color:#FFF; font-family: roboto-bold; font-weight:normal;}
+
+.banner-right ul{float:right;margin:40px 0px 0px 0px;padding:0px;width:auto;}
+.banner-right ul li{float:left;list-style:none;font-size:14px;padding:0px 10px; font-family: roboto-bold;}
+.banner-right ul li a{color:#fff; font-family: roboto-bold;}
+.banner-right ul li span{color:#eef3ff;font-family: roboto-regular;}
+.banner-right ul li.one{border-right:2px solid #fff;}
+
+.bodycontent{width:100%;float:left;position:relative;padding:0px 0px 15px;margin-top:-50px;}
+.bodycontent .bxshadow{box-shadow:0px 0px 6px 0px #858585;padding:0px 30px;background:#fff;}
+.breadcrumb-li{float:left;width:auto;padding:20px 20px 20px 0px;color:#333;font-family: roboto-regular; position:relative; z-index:8888;}
+.breadcrumb-li a{display:inline-block;padding:0px 10px;font-size:14px;color:#333;}
+.breadcrumb-li span{margin-left:10px; color:#ff6000;}
+.tabs{width:100%;float:left;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+
+.form-content{width:100%;float:left;}
+.form-content h2{font-size:20px;font-family: roboto-regular;margin:25px 0px 0px;padding:0px;color:#000;line-height:25px;}
+.form-content h3{font-size:17px;font-family: roboto-regular;margin:0px 0px 15px;padding:0px;color:#000;line-height:25px;}
+
+.form-content-list{width:100%;float:left;margin:0px 0px 15px;padding:0px;}
+.form-content-list li{float:left;width:100%;list-style:none;font-size:13px;color:#333;background:url(../images/content-libg.png) no-repeat left 2px;padding:0px 0px 5px 25px;line-height:18px;font-family: roboto-regular;}
+.form-content-list li b{ font-family: roboto-regular; font-weight:bold;}
+
+.height25{height:20px;float:left;width:100%;}
+.formbox{float:left;width:100%;background:#e5e5e5;padding:20px 25px;margin-bottom:30px;}
+.formbox label { font-family: roboto-bold; font-weight:normal;}
+.form{float:left;width:100%;}
+.form h2{float:left;width:100%;font-size:22px;color:#000;padding-bottom:12px;border-bottom:1px solid #ccc;margin:0px 0 25px 0;font-family: roboto-regular;}
+.form h2 span{float:right;font-size:17px;color:#333;}
+.form label,.form .required-txt{font-size:13px;color:#333;}
+.form .requiredtxt{color:#d62525;font-size:16px;position: relative;left: 3px;top: -3px; margin-right:5px;}
+.form label{width:auto;}
+.form .full-length-txt,.form .full-length-txtarea{float:left;width:100%;background:#fff;border:1px solid #ccc; padding:5px 3px; font-size:13px;color:#868686;font-family: roboto-regular;box-shadow:0px 0px 3px #ccc;}
+.form  input[type=radio]{margin:3px 7px 0px;}
+.form  .radiotext{font-size:13px;font-family: roboto-regular;}
+
+.form  .full-length-file{float:right;opacity:0;position:relative;z-index:9999;}
+.form  .full-photo{float:right;background:url(../images/textbx-bg.jpg) no-repeat left;position:relative;margin-top:-20px;z-index:9;width:100%;}
+.form  .full-photo img{float:right;}
+.forminnerbox{float:left;width:100%;background:#dadada;padding:20px 20px;border:1px solid #ccc;}
+.forminnerbox h4, .addressheadingtxt{flat:left;width:100%;font-size:18px;margin:0px;font-family: roboto-regular;color:#000;}
+.addressheadingtxt { border-bottom:1px solid #ccc; padding-bottom:10px; margin:0 0 15px 0; font-size:17px; }
+.headingtitle { font-size:14px; padding:10px; color:#333; background:#cbcbcb; font-family: roboto-bold;}
+.boxheadingtitle { font-size:14px; padding: 10px 0 10px 0; color:#333; font-family: roboto-bold; font-weight:normal; }
+.form  .required-txt{font-family: roboto-regular;float:left;line-height:25px;}
+.fieldrow { width:100%; display:block; margin:0 0 20px 0; float:left;}
+.borderbox { border:1px solid #ccc; padding-bottom:15px;}
+.forminnerbox h4 .small-heading{font-size:13px;}
+.btnblue {font-size:16px;color:#fff;font-family: roboto-bold;background:#14469e;padding:10px 0px;text-align:center;margin-right:10px;width:120px;border:none;}
+.form .col-sm-6, .form .col-xs-12, .form .col-md-12, .form .col-md-6 { margin-bottom:10px;}
+.form .labeltxt { width:150px; float:left;}
+.inputfieldbox { width:350px; float:left;}
+.btnblue:hover { background:#1d50ab;}
+.btnorange:hover { background:#ff8a18;}
+.btnorange {font-size:16px;color:#fff;font-family: roboto-bold;background:#ff7200;padding:10px 0px;text-align:center;margin-right:10px;width:120px;border:none;}
+
+.rebbg { background:#d23001;}
+.bluebg { background:#29147d ;}
+.tablecontent { border-top:1px solid #cccccc;}
+.tablecontent tr th {  font-size:13px; color:#333; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;  font-family: roboto-bold; font-weight:normal; padding:10px 10px;}
+.tablecontent { border-left:1px solid #cccccc;}
+.tablecontent tr td {  font-size:14px; color:#333; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; font-family: roboto-regular; font-weight:normal; padding:7px 10px;}
+.footer{float:left;width:100%;color:#fff;font-size:13px;background:#313131;padding:12px 0px;font-family: roboto-regular;}
+.footer a { color:#f9c97a;}
+.footer a:hover { color:#FFF; text-decoration:underline;}
+.footer-left{text-align:left;}
+.footer-right{text-align:right;}
+.tablebordernone tr td, .tablebordernone tr th { border:none;}
+.banner-heading, .logo { padding-left:0px !important;}
+.dashboardcontent h2 { font-weight:normal; text-align:center; font-size:30px; color:#ff7100;  padding:20px 0 15px 0; letter-spacing:-1px;}
+.borderline {background:url(../images/bg-pat-trans.png) repeat-x; width:100%; height:10px; display:block;}
+.dashboardcontent h2 span { font-family: roboto-bold; font-weight:normal; color:#14469e;}
+.dashboaredbox  {padding:20px 20px; width:100%; float:left}
+.bluebg { background:#21c8ff;}
+.greenbg { background:#44b13f;}
+.yellowbg { background:#febd4b;}
+.iconblue { background:#19bef4;}
+.icongreen { background:#37a932;}
+.iconyellow{ background:#f6af34;}
+.dashboaredbox .icon { width:70px; height:70px; float:left; text-align:center; padding:10px 0 0 0; border-radius:50% 50%; -webkit-border-radius:50% 50%; -moz-border-radius:50% 50%;}
+.dashboardtext { width:auto; float:left; font-size:18px; margin:10px 0 0 15px;  color:#FFF; font-family: roboto-bold; text-align:left;}
+.mediuminputbox .inputfieldbox { width:100%;}
+
+.declarationtext p { font-size:13px;}
+.black_overlay {background-color: black;height: 100%;left: 0;opacity: 0.7;overflow: hidden;position: fixed;top: 0;width: 100%;z-index: 888888888;}
+.popupcontainer {background: #fff;box-shadow: 0 0 10px #000;left: 0;margin: 0 auto;min-height: 30%;overflow: auto;padding: 10px;position: absolute;right: 0;top: 5% !important;width: 1000px;z-index: 2147483647; padding:30px;}
+.popupcontainer  .popupform { height:450px; overflow-y:scroll;}
+.popupcontainer .btnclose { position:absolute; right:20px; top:10px;}
+.popupcontainer  .popupform h4 { color:#14469e; font-family: roboto-regular; text-align:center; font-size:24px; letter-spacing:-1px; border-bottom:1px solid #ccc; padding:0 0 20px 0; margin:0 0 20px 0; }
+.btnlinkblue {font-size:16px;color:#fff;font-family: roboto-bold;background:#14469e;padding:10px 20px;text-align:center;margin-right:10px;width:120px;border:none;}
+.btnlinkblue:hover { background:#ff7200; color:#FFF;}
+
+
+.n_error {background: #FDE4E1; border: 1px solid #B16A6C; border-radius: 3px; margin: 0px 0px 20px 0px; padding: 1px;}
+.n_error p {background: #F4CAC6 no-repeat 4px center; color: #630E18; margin: 0; padding: 3px 10px;}
+.n_error a {color: #822121; font-weight: bold;}
+
+.n_info {background: #FFF7CE;border: 1px solid #D9C65B; border-radius: 3px; margin: 0px 0px 20px 0px; padding: 1px;}
+.n_info p {background: #FDF0B1 no-repeat 4px center; color: #756B30;	margin: 0; padding: 3px 10px;}
+.n_info a {color: #756B30;	font-weight: bold;}
+
+.n_warning {background: #FFF7CE;border: 1px solid #D9C65B; border-radius: 3px; margin: 0px 0px 20px 0px; padding: 1px;}
+.n_warning p {background: #FDF0B1 no-repeat 4px center;	color: #756B30;	margin: 0; padding: 3px 10px;}
+.n_warning a {color: #756B30;	font-weight: bold;}
+
+.n_success {background: #F6FFEC;border: 1px solid #89B755; border-radius: 3px; margin: 0px 0px 20px 0px; padding: 1px;}
+.n_success p {background: #DFF6C5 no-repeat 4px center; color: #496528; margin: 0; padding: 3px 10px;}
+.n_success a {color: #006312; font-weight: bold;}
+
+.n_notification {background: #e8effc;border: 1px solid #cadaf8; border-radius: 3px; margin: 0px 0px 20px 0px; padding: 1px;}
+.n_notification p {background: url(../images/icon-tab-plus.png) right 7px no-repeat; cursor:pointer; color: #0e3271;	margin: 0; padding: 7px 20px;}
+.n_notification a {color: #14469e;	font-weight: normal; cursor:pointer;}
+
+.whitebg { background:#FFF; padding-top:15px;}
+.fieldtextbox { width:auto; float:left; font-size:13px; width:258px;}
+.form .labeltxt2 { float:left; width:180px; margin-right:10px;}
+.advertisement{border:1px solid #ccc; margin-bottom:20px; padding:10px;}
+.advertisement .roster_details {max-height:200px; background-color: #FFF; padding:10px 20px;}
+.advertisement tr th {font-size:12px; color:#FFF; background:#666; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;  font-weight:normal; padding:7px 10px; text-align:left;}
+.advertisement table { border-left:1px solid #ddd;}
+.advertisement tr td {  font-size:13px; color:#333; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font-family: roboto-regular; font-weight:normal; padding:7px 10px;}
+.adv_title{color:#14469e;}
+.btndownloadpdf {margin:-2px 20px 0px 0px;  float:right; font-size: 12px; text-decoration:none !important;}
+.advertismentbox { border:1px solid #ccc; box-shadow: 0 1px 3px #ccc; min-height: 200px; padding:20px;}
+.advertismentbox  h3 { font-family: roboto-bold; font-size: 16px; color:#14469e; margin: 0px; padding: 0px 0 10px 0;}
+.advertismentbox ul li { font-size: 14px; line-height: 28px;}
+.advertismentbox ul li span { font-family: roboto-bold;}
+.advertismentbox ul li .redtext{ color:#ff0000; font-family: roboto-bold;}
+.advertismentbox ul li .greentext{ color:#44b13f; font-family: roboto-bold;}
+.tablecal .datepickr { top: 250px !important; left: 260px !important;}
+.tablecal2 .datepickr  { top: 200px !important; left: 260px !important;}
+.banner-right { position: relative; z-index: 88888;}
+.changepass { padding:30px;}
+.changepass .loginpanel .inputbox { margin-bottom: 20px;}
+
+.headerrgtlogos { width:auto; float:left;}
+.headerusername { width:auto; float:right; border-left:1px solid #ccc; padding:0px 10px; margin-top:15px;}
+.headerusername span { font-size:13px; color:#666;}
+.headerusername a{ color:#14469e; font-family: roboto-bold; font-weight:normal;}
+.headerusername ul li { padding:0px; border-right:none;}
+.headerusername ul li ul { display:none;}
+.headerusername ul li:hover ul { width:200px; display:block; padding:15px; position:absolute; top:35px; right:0px; background:#fff; box-shadow:0 0 4px #ccc; border-radius:4px; z-index:99999;}
+.headerusername ul li ul li { width:100%; display:block; text-align:left; }
+.headerusername ul li ul li a { font-family: roboto-regular; color:#666; width:100%; padding:5px 0px; display:block;  border-bottom:1px dashed #ccc; font-size:13px;}
+.headerusername ul li ul li a:hover { color:#14469e;}
+.arrow-up {
+  width: 23px; 
+  height: 12px;
+  text-align:center;
+  margin:0 auto;
+  position:absolute; left:0px; right:0px; top:-18px; 
+}
+/*----------------------------------INDES PAGE CSS START HERE-----------------------------------------*/.btnbox { margin-top:30px; text-align:center; width:100%;}
+.btnregister {  background-color: #20aa4d; background-image: linear-gradient(to bottom, #20aa4d, #129b3f);    padding: 8px 10px; border-radius:3px; color:#FFF; font-family: roboto-bold; font-size:18px; display:inline-block; color:#FFF;  margin:0px 0 0 5px; 	width:160px;  border: 2px solid #089536; text-decoration: none;text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2); display:inline-block;} 
+.homebtnlogin { background-color: #ff7200; background-image: linear-gradient(to bottom, #fc781b, #fb5007); border: 2px solid #fb5007; border-radius: 4px; box-shadow: 0 1px 2px #878787; color: #ffffff;display: inline-block; font-family: roboto-bold; font-size:18px;padding: 8px 10px;width:140px;text-decoration: none;text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2); display:inline-block;}
+.homebtnlogin img, .btnregister img { margin-right:10px; display:inline-block; margin-top:-5px;}
+.homebtnlogin:hover {background-color: #ff7200; background-image: linear-gradient(to bottom, #fb5007, #fc781b); color:#FFF; text-decoration:none; border: 2px solid #fb5007;}
+.btnregister:hover {background-color: #20aa4d; background-image: linear-gradient(to bottom, #129b3f, #20aa4d); color:#FFF; text-decoration:none; border: 2px solid #089536;}
+/*-------------HEADER CSS END HERE---------------------------------------*/
+
+.adminusername { font-size:13px; color:#bfbfbf; font-family: roboto-regular;}
+.adminusername span { color:#14469e; font-family: roboto-regular; font-size:15px;}
+.topuserlist li { font-size:13px; margin:17px 0 0 0;}
+.topuserlist li span { color:#14469e; font-family: roboto-bold; font-size:13px; }
+.headerrgtimg { text-align:right;}
+.slidermaincontainer { width:100%; display:block; position:relative; z-index:555; }
+.slidercontainer { width:100%; height:450px; background:url(../images/bannerbg.jpg) center top no-repeat #ffd9a7; }
+.sliderinner { width:1050px; margin:0 auto; position:absolute; top:0px; left:0px; right:0px;}
+.homepagecontent { padding:30px 0;}
+.homepagecontent h1 { text-align:center; font-size:30px; font-family: roboto-bold;}
+.homepagecontent p { color:#333; font-size:14px; line-height:24px; }
+.bannrrgtbox { width:350px; float:right; position:absolute; right:0px; top:0px;}
+.advertismentcontainer {  width:346px; float:right; padding:13px;  background:url(../images/bg-pat-trans.png); }
+.newscontentbox { background:#FFF; padding:20px;}
+.news_container {width:100%; height: 220px; overflow: hidden; position: relative;}
+.newscontentbox h2 { margin:0px;  color:#213b90;  text-align:center; font-family: roboto-bold; font-size:15px; text-transform:uppercase; border-top:1px solid #213b90; border-left:1px solid #213b90; border-right:1px solid #213b90; position:relative; height:37px;  border-bottom:3px solid #fc7a1c; padding:7px 0 0px 0px; margin:0 0 0px 0; }
+.whatnewslisting ul { }
+.arrow { text-align:center; width:100%; display:block; margin-top:-10px;}
+.newscontentbox h2 img { position:absolute; left:0px; top:0px}
+.newscontentbox ul li a { text-decoration:none; color:#333; padding:5px 0 5px 30px; background:url(../images/bullet.png) 10px 6px no-repeat #f0f0f0; display:block;  margin:0 0 10px 0; font-size:12px; border:1px solid #f0f0f0;}
+.listing_first { background:#f0f0f0; margin:0 0 10px 0;}
+/*.newscontentbox ul li.listing_first { text-decoration:none; color:#333; padding:5px 0 5px 30px; background:url(../images/bullet.png) 10px 6px no-repeat #f0f0f0; display:block;  margin:0 0 10px 0; font-size:12px; border:1px solid #f0f0f0;}*/
+
+.newscontentbox ul li .linktxt { display:inline-block; padding:0px; margin:0px; background:none; border:none; color:#fc6e08; font-family: roboto-bold;}
+.newscontentbox ul li.listing_first .linktxt:hover { background:none; border:none; }
+.newscontentbox ul li.listing_first a:hover{background:url(../images/bullet.png) 10px 6px no-repeat; border:none}
+.news {position: absolute; left: 0px;top: 0px;}
+.newscontentbox ul li a:hover { border:1px solid #14469e; color:#14469e; background: url(../images/bullet.png) 10px 6px no-repeat #FFF;  }
+
+/*-------------FOOTER CSS START HERE---------------------------------------*/
+.homefooter{float:left;width:100%;color:#fff;font-size:13px;background:#333;padding:12px 0px;font-family: roboto-regular;}
+.homefooter a { color:#FFF;}
+.homefooter a:hover { color:#d23001; text-decoration:none;}
+.homefooter-left{text-align:left;}
+.homefooter-right{text-align:right;}
+/*-------------FOOTER CSS END HERE---------------------------------------*/
+
+.boxcontent { border:1px solid #ccc;}
+.boxcontent h2 img { position:absolute; left:0px; top:0px}
+.boxcontent h2 { margin:0px;  color:#213b90;  text-align:center; font-family: roboto-bold; font-weight:normal; font-size:17px; border-top:1px solid #213b90; border-left:1px solid #213b90; border-right:1px solid #213b90; position:relative; height:37px;  border-bottom:3px solid #213b90; padding:5px 0 0px 0px; margin:0 0 0px 0; }
+.boxlistcontent {width:100%; height: 280px;  position: relative;}
+.boxcontent ul li a { text-decoration:none; color:#333; padding:0px 0 3px 30px; background:url(../images/bullet.png) 10px 2px no-repeat; display:block;  margin:0 0 10px 0; font-size:12px; }
+.boxcontent ul li a:hover { color:#163080;}
+.news {position: absolute; left: 0px;top: 0px;}
+.newscontentbox ul li a:hover { border:1px solid #14469e; color:#14469e; background: url(../images/bullet.png) 10px 6px no-repeat #FFF;  }
+.contentbox p { color:#333; font-size:14px; line-height:22px; text-align:justify; margin:0px 0 20px 0;}
+.contentbox h2 { font-size:22px; border-bottom:1px solid #ccc; padding:0 0 10px 0; margin:0 0 20px 0;}
+.btnreadmore { border:1px solid #fc6e08; padding:7px 10px; color:#fc6e08; font-size:14px; font-family: roboto-bold; transition:1s all ease-in-out;  }
+.btnreadmore:hover { background:#fc6e08; color:#FFF;}
+
+/*-------------------------POPUP CSS START HERE-------------------------------------*/
+.black_overlay {background-color: black;height: 100%;left: 0;opacity: 0.7;overflow: hidden;position: fixed;top: 0;width: 100%;z-index: 888888888;}
+.popupcontainer {background: #fff;box-shadow: 0 0 10px #000;left: 0;margin: 0 auto;min-height: 30%;overflow: auto;padding: 10px;position: absolute;right: 0;top: 5% !important;width: 1000px;z-index: 2147483647; padding:30px;}
+.popupcontainer  .popupform { height:450px; overflow-y:scroll;}
+.popupcontainer .btnclose { position:absolute; right:20px; top:10px; cursor:pointer;}
+.popupcontainer  .popupform h4 { color:#14469e; font-family: roboto-regular; text-align:center; font-size:24px; letter-spacing:-1px; border-bottom:1px solid #ccc; padding:0 0 20px 0; margin:0 0 20px 0; }
+.popupcontainer h5 { color:#333; padding:10px 0 0 0; font-family: roboto-bold; }
+.popupcontainer table { width:100%; border-top:1px solid #ccc; border-right:1px solid #ccc; }
+.popupcontainer table tr th { background:#f0f0f0; border-left:1px solid #ccc; border-bottom:1px solid #ccc; color:#333; font-family: roboto-bold; font-weight:normal; padding:5px;}
+.popupcontainer table tr td { border-left:1px solid #ccc; border-bottom:1px solid #ccc; color:#333; font-size:13px; padding:5px;}
+.contentbox ul { margin:0px 0 20px 0; padding:0px;}
+.contentbox ul li {color:#333; font-size:14px;  text-align:justify; padding:0 0 5px 15px;background: url(../images/list-arrow.jpg) 0px 6px no-repeat; }
+/*-------------------------POPUP CSS END HERE-------------------------------------*/
+.homenews { font-size:13px; padding-top:10px;}
+
+@media only screen and (max-width:1200px)
+{
+.header-right ul li.one, .header-right ul li.two{padding:13px 8px;}	
+.form .col-sm-4 label, .form .col-sm-4 .required-txt{font-size:12px;}
+.slidercontainer { background-size:100% 100%;}
+.slidercontainer { height:450px;}
+}
+
+@media only screen and (max-width:992px)
+{
+
+	.logo{text-align:center;}
+	.header-right{float:none; text-align:center;}
+	.banner-heading h1{margin:20px 0px; font-size:20px; text-align:center; float:none;}
+	.banner-right ul{margin:0px 0px 60px -10px;float:left; width:100%; text-align:center;}
+	.banner-right ul li { float:none; display:inline-block;}
+	.boxcontent { margin:20px 0px;}
+	.header-top { height:auto;}
+	.sliderinner { width:767px;}
+	.table_responsiv { width:100%; overflow-y:scroll; display:block;} 
+}
+@media only screen and (max-width:767px)
+{
+	
+	.form .col-sm-4{margin:10px 0px;float:left;width:100%;}
+	.footer .footer-left,.footer-right{text-align:center;padding:5px 0px;}
+	.form .col-sm-4 .full-photo{background-size:100% 40px;}
+	.form .full-length-txt, .form .full-length-txtarea { width:100%;}
+	.form .labeltxt, .inputfieldbox { width:100%; float:none; display:block;}
+	.bodycontent .bxshadow{padding:0px 15px;}
+	.formbox{padding:15px 15px;}
+	.form .col-sm-4{padding:0px;}
+	.form h2 { margin-bottom:0px;}
+	.headerformtitle { margin-left:0px; top:-80px; width:100%; text-align:center;}
+    .headerformtitle h1 { float:none;}
+    .banner-right { margin-top:20px;}
+	.slidercontainer { height:250px;}
+	.sliderinner,.bannrrgtbox  { position:relative; width:100%;}
+	.advertismentcontainer, .news { width:100%; box-sizing: border-box;}
+	.advertismentcontainer { margin-bottom:15px;}
+	.homefooter .homefooter-left,.homefooter-right{text-align:center; padding-top:5px; padding-bottom:5px;}
+	.sliderinner { width:auto; display:block;  box-sizing: border-box;}
+}
+
+@media only screen and (max-width:480px)
+{
+.loginform { width:auto; display:block; margin:15px;}
+.loginpanel .inputbox input { width:80%;}
+.form h2 span{width:100%;float:left;}
+.formbox .text-center{padding:0px;}
+.breadcrumb-li{padding:20px 0px;font-size:13px;}
+.breadcrumb-li a{font-size:13px;}
+.headerrgtlogos { width:100%; text-align:center;}
+.headerusername { width:100%; border-left:none;}
+.header-right ul { float:none; margin:0 auto;}
+.headerusername ul li { text-align:center; width:100%;}
+.headerusername ul li:hover ul { top:110px; left:0px; right:0px;}
+}
